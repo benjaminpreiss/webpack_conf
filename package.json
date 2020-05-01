@@ -2,10 +2,12 @@
   "scripts": {
     "webpack": "webpack --config ./webpack.config.js",
     "jslint": "npm run standardx",
-    "scsslint": "npm run stylelint '**/*.scss'"
+    "scsslint": "npm run stylelint '**/*.scss'",
+    "htmlhint": "npm run htmlhint"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
+    "@csstools/normalize.css": "^10.1.0",
     "autoprefixer": "^9.7.6",
     "babel-loader": "^8.1.0",
     "css-loader": "^3.5.3",
