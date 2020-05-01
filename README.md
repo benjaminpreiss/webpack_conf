@@ -76,9 +76,9 @@ References made by cross-site anchor tags can currently not be resolved. Anchor 
 
 ## Installation
 
-0. If you are starting a new project:
+0. Start a new project in current folder:
 ```bash
-git clone https://github.com/benjaminpreiss/webpack_conf.git
+git clone https://github.com/benjaminpreiss/webpack_conf.git./
 ```
 1. Change git origin remote to your github repository:
 ```bash
